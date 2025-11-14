@@ -1,7 +1,5 @@
 nav {
-  width: 500px;
-  background-color: #fff;
-  min-height: 40px;
+  min-width: 500px;
   justify-content: center;
   align-items: center;
 }
@@ -12,11 +10,16 @@ nav ul {
 
 nav ul li {
   margin: 0 20px;
+  padding: 10px 40px;
+  border-radius: 16px;
+  background: #d11c1c;
   list-style: none;
 }
 
 nav ul li a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   align-items: center;
+
 }
+

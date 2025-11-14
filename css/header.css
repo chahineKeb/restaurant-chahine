@@ -1,6 +1,17 @@
 .logo {
-  width: 100px;
-  min-height: 40px;
-  background-color: #fff;
+  width: 230px;
+  min-height: 90px;
+  margin: 20px;
+  padding: 20px;
+  background-image: url(../image/logo_sushimonster.png);
+  background-size: cover;
   color: black;
+  position: sticky;
+  top: 11;
+}
+
+header{
+  border-radius: 16px;
+  box-shadow: 5px 4px 40px 4px rgba(255, 0, 0, 0.336);
+
 }

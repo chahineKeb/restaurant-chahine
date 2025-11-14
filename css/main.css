@@ -14,38 +14,59 @@ section.hero, section.apropos{
 .panneau{
     width: 95%;
     height: 90vh;
+    display: flex;
+    align-items: center;
     background-image: url(../image/sushiman.png);
     background-position: center;
     background-attachment: fixed;
     border-radius: 16px;
 }
+.panneau img{
+    width: 400px;
+    height: 180px;
+    padding: 20px;
+    margin: 15px;
+    background-color: #ffffff71;
+}
 
 section.apropos{
     display: flex;
-    align-self: start;
+    align-items: start;
+    flex-direction: row;
+}
+.texte{
+    display: flex;
     flex-direction: column;
+    width: 60%;
+
 }
 .titres{
 
-    background-color: #fff;
-    width: 90%;
-    height: 100px;
+    /* background-color: #fff; */
+    width: 80%;
+    min-height: 100px;
+    padding: 30px;
+}
+
+.titres h1{
+    font-size: 3em;
 }
 .contenu{
     width: 90%;
     max-height: 90vh;
-    border-radius: 16px;
     padding: 40px;
-    background: #bc64f7;
-    display: flex;
+    background-color: #fff;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
-    text-align: justify;
+    text-align: justify; */
 }
-.contenu p{
-    width: 50%;
-    margin-right: 50px;
+.texte h2{
+    width: 100%;
+    margin-top: 10%;
+    /* background-color: #ffffff; */
 }
+
+
  .picture{
     background: url(../image/plat_sushi.jpg) no-repeat;
     background-size: cover;
@@ -53,6 +74,10 @@ section.apropos{
     height: 600px;
 }
 
+
 section.fin{
-    height: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

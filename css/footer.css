@@ -3,7 +3,8 @@
     justify-content: space-around;
     border-radius: 16px;
     width: 90%;
-    background-color: #dad3bb;
+    background-color: rgb(133, 5, 5);
+    color: rgb(255, 255, 255);
     padding: 30px;
 
 }
