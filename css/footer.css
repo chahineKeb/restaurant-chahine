@@ -1,0 +1,13 @@
+.menu_footer{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    width: 90%;
+    background-color: #dad3bb;
+    padding: 30px;
+
+}
+.menu_footer p{
+    text-align: justify;
+    width: 250px;
+}
