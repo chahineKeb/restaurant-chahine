@@ -21,6 +21,40 @@ section.hero, section.apropos{
     background-attachment: fixed;
     border-radius: 16px;
 }
+.panneau_montauban{
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../image/sushimonster-montauban.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 16px;
+}
+.panneau_toulouse{
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../image/sushimonster-toulouse.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 16px;
+}
+.panneau_agen{
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../image/sushimonster-agen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 16px;
+}
+
 .panneau img{
     width: 400px;
     height: 180px;
