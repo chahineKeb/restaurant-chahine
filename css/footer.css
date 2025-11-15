@@ -5,8 +5,7 @@
     width: 80%;
     margin:0 0 0 5%;
     max-height: 150px;
-    background-color: #9b2d2d;
-    color: rgb(255, 255, 255);
+    background-color: #4F1717;
     padding: 30px;
     
 
@@ -18,8 +17,15 @@ footer .colonne ul{
 }
 footer .colonne h3{
     font-size: 1em;
+    color: #F9EBEB;
 }
-footer .colonne h3::after {
+footer .colonne a{
+  text-decoration: none;
+  color: #E8B0B0;
+}
+
+
+/* footer .colonne h3::after {
   content: "";
   width: 10px;
   height: 10px;
@@ -29,5 +35,5 @@ footer .colonne h3:hover::after {
   transform: scale(1.02);
   transition: 0.03s;
   display: block;
-}
+} */
 

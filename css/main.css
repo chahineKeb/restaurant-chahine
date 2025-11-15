@@ -21,6 +21,40 @@ section.hero, section.apropos{
     background-attachment: fixed;
     border-radius: 16px;
 }
+.panneau_montauban{
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../image/sushimonster-montauban.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 16px;
+}
+.panneau_toulouse{
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../image/sushimonster-toulouse.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 16px;
+}
+.panneau_agen{
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../image/sushimonster-agen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 16px;
+}
+
 .panneau img{
     width: 400px;
     height: 180px;
@@ -56,7 +90,7 @@ section.apropos{
     max-height: 90vh;
     padding: 40px;
     border-radius: 40px 0 16px 0;
-    background-color: #fff;
+    background-color: #772222;
     border:15px  rgb(187, 66, 66);
     border-style: groove;
 }
@@ -76,7 +110,7 @@ section.apropos{
 
 
 section.fin{
-    border-top: solid 1px;
+    border-top: solid 1px ;
     width: 80%;
     margin: 0 10%;
     height: 300px;
