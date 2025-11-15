@@ -1,9 +1,7 @@
-.logo {
-  width: 230px;
+.logo img{
+  width: 240px;
   min-height: 90px;
-  margin: 20px;
-  padding: 20px;
-  background-image: url(../image/logo_sushimonster.png);
+  margin: 10px 0;
   background-size: cover;
   color: black;
 }
