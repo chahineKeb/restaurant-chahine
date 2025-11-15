@@ -6,13 +6,11 @@
   background-image: url(../image/logo_sushimonster.png);
   background-size: cover;
   color: black;
-  position: sticky;
-  top: 11;
 }
 
 header{
   border-radius: 16px;
   box-shadow: 5px 4px 40px 4px rgba(255, 0, 0, 0.336);
-  
+  background-color: #280B0B;
 
 }
