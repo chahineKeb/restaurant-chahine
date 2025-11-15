@@ -55,10 +55,10 @@ section.apropos{
     width: 90%;
     max-height: 90vh;
     padding: 40px;
+    border-radius: 40px 0 16px 0;
     background-color: #fff;
-    /* display: flex;
-    justify-content: space-around;
-    text-align: justify; */
+    border:15px  rgb(187, 66, 66);
+    border-style: groove;
 }
 .texte h2{
     width: 100%;
@@ -76,6 +76,9 @@ section.apropos{
 
 
 section.fin{
+    border-top: solid 1px;
+    width: 80%;
+    margin: 0 10%;
     height: 300px;
     display: flex;
     justify-content: center;

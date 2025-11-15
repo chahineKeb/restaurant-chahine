@@ -2,13 +2,32 @@
     display: flex;
     justify-content: space-around;
     border-radius: 16px;
-    width: 90%;
-    background-color: rgb(133, 5, 5);
+    width: 80%;
+    margin:0 0 0 5%;
+    max-height: 150px;
+    background-color: #9b2d2d;
     color: rgb(255, 255, 255);
     padding: 30px;
+    
 
 }
-.menu_footer p{
-    text-align: justify;
-    width: 250px;
+footer .colonne ul{
+    font-size: 0.70em;
+    list-style: none;
+    margin-bottom: 30px;
 }
+footer .colonne h3{
+    font-size: 1em;
+}
+footer .colonne h3::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: none;
+}
+footer .colonne h3:hover::after {
+  transform: scale(1.02);
+  transition: 0.03s;
+  display: block;
+}
+

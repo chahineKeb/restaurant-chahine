@@ -12,7 +12,7 @@ nav ul li {
   margin: 0 20px;
   padding: 10px 40px;
   border-radius: 16px;
-  background: #d11c1c;
+  background-color: #d11c1c;
   list-style: none;
 }
 
@@ -23,3 +23,8 @@ nav ul li a {
 
 }
 
+nav ul li:hover{
+  transition: 0.03s;
+  transform: scale(1.05);
+  box-shadow: 3px 4px 20px 4px rgba(255, 0, 0, 0.164);
+}
