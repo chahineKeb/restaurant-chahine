@@ -9,6 +9,7 @@ body{
     min-height: 100%;
     font-size: 20px;
     font-family: sans-serif;
+    background-image: radial-gradient(circle,#461717,#461717,#1C0808);
     background-color: #1C0808;
     color: white;
 }
