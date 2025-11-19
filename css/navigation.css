@@ -9,7 +9,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 20px;
+  margin: 0 15px;
   padding: 10px 40px;
   border-radius: 16px;
   background-color: #C63939;
@@ -27,4 +27,49 @@ nav ul li:hover{
   transition: 0.03s;
   transform: scale(1.05);
   box-shadow: 3px 4px 20px 4px rgba(255, 0, 0, 0.164);
+}
+
+.bouton {
+  background-color: #C63939;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.nav_verticale {
+  position: relative;
+}
+
+.bouton_contenu {
+  display: none;
+  position: absolute;
+  left: 30px;
+  background-color: #e24f4f;
+  min-width: 170px;
+  border-radius: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 0, 0, 0.164);
+}
+
+.bouton_contenu a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.bouton_contenu a:hover {
+  background-color: #eca3a3;
+}
+
+.nav_verticale:hover .bouton_contenu {
+  display: block;
+}
+
+.nav_verticale:hover .bouton {
+  background-color: #C63939;
 }
