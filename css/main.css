@@ -89,7 +89,7 @@ section.apropos{
     width: 90%;
     max-height: 90vh;
     padding: 40px;
-    border-radius: 40px 0 16px 0;
+    border-radius: 40px 0 16px;
     background-color: #772222;
     border:15px  rgb(187, 66, 66);
     border-style: groove;
